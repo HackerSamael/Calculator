@@ -1,7 +1,7 @@
-.container{
+/* .container{
     text-align: center;
     margin-top: 23px;
-}
+} */
 table{
     margin: auto;
 }
@@ -9,6 +9,7 @@ table{
 input{
     font-size: 20px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 button{
@@ -17,3 +18,28 @@ button{
     height: 45px;
     border-radius: 10px;
 }
+.container{
+    
+    
+    width: 300px;
+    text-align: center;
+    margin-top: 40px;
+    /* Added the border */
+    border: 1px solid black;
+    /* Added the padding */
+    padding: 10px;
+    /* Added the border-radius */
+    border-radius: 10px;
+    /* Bring div center */
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+@media screen and (max-width: 600px) {
+    .container{
+        max-width: 100%;
+    }
+
+}
+    
